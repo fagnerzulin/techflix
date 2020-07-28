@@ -1,7 +1,10 @@
 <h1 align="center">
+
 ![Techflix](https://fontmeme.com/permalink/200728/f742058aa7b0e1cb02c9bf0671b9e191.png)
+
 </h1>
 <h4 align="center">
+
 Seu agregador de conteúdo tech.
 ----------------------------------
 </h4>
@@ -12,11 +15,11 @@ Seu agregador de conteúdo tech.
 Projeto desenvolvido ao longo da Imersão React promovida pela Alura. Essa versão do projeto serve como um agregador de conteúdos de tecnologia publicados no YouTube.
 ______
 
-##### :tw-1f528: :tw-1f527:  Tecnologias utilizadas
+##### 🛠🛠 Tecnologias utilizadas
 ------------
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[React](https://reactjs.org/) **
+-  **[React](https://reactjs.org/)**
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[Styled Components](https://github.com/styled-components/styled-components)**
 
