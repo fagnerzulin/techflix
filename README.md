@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+![Techflix](https://fontmeme.com/permalink/200728/f742058aa7b0e1cb02c9bf0671b9e191.png)
+</h1>
+<h4 align="center">
+Seu agregador de conteúdo tech.
+----------------------------------
+</h4>
 
-## Available Scripts
 
-In the project directory, you can run:
+##### 💻 Sobre o projeto
+------------
+Projeto desenvolvido ao longo da Imersão React promovida pela Alura. Essa versão do projeto serve como um agregador de conteúdos de tecnologia publicados no YouTube.
+______
 
-### `npm start`
+##### :tw-1f528: :tw-1f527:  Tecnologias utilizadas
+------------
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **[React](https://reactjs.org/) **
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+- **[Styled Components](https://github.com/styled-components/styled-components)**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> Veja o arquivo  [package.json](https://github.com/fagnerzulin/techflix/blob/master/package.json)
 
-### `npm test`
+______________
+##### 👩‍🏫👨‍🏫 Instrutores
+------------
+A seguir os instrutores que promoveram essa Imersão (com link para as respectivas contas no twitter):
+- **[Mario Souto](https://twitter.com/omariosouto) - Instrutor da Alura, engenheiro Nubank **
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[Juliana Negreiros](https://twitter.com/juunegreiros) - Coordenadora dos cursos de front-end da Alura **
 
-### `npm run build`
+- **[Marco Bruno](https://twitter.com/marcobrunodev) - Engenheiro de software na Suécia **
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **[Paulo Silveira](https://twitter.com/paulo_caelum) - CEO da Alura **
+_________________
