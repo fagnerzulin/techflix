@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Techflix from "../../assets/img/techflix.png";
 import { MenuWrapper, LogoImage } from "./style";
 import Button from "../Button";
@@ -6,11 +7,11 @@ import Button from "../Button";
 function Menu() {
   return (
     <MenuWrapper className="Menu">
-      <a href="/">
+      <Link to="/">
         <LogoImage src={Techflix} alt="Techflix-logo" />
-      </a>
+      </Link>
 
-      <Button as="a" href="/">
+      <Button as={Link} to="/cadastro/video">
         Novo Vídeo
       </Button>
     </MenuWrapper>

@@ -2,7 +2,7 @@ import React from "react";
 import { VideoCardGroupContainer, VideoCardList, Title } from "./styles";
 import VideoCard from "./components/VideoCard";
 
-function VideoCardGroup({ ignoreFirstVideo, category }) {
+function Carousel({ ignoreFirstVideo, category }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const videos = category.videos;
@@ -36,4 +36,4 @@ function VideoCardGroup({ ignoreFirstVideo, category }) {
   );
 }
 
-export default VideoCardGroup;
+export default Carousel;
