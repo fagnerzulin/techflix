@@ -1,14 +1,18 @@
-<h1 align="center">
 
-![Techflix](https://fontmeme.com/permalink/200728/f742058aa7b0e1cb02c9bf0671b9e191.png)
+<p align="center">
+   <img src="https://fontmeme.com/permalink/200728/f742058aa7b0e1cb02c9bf0671b9e191.png" alt="Techflix"/>
+</p>
 
-</h1>
 <h4 align="center">
 
    Seu agregador de conteúdo tech
    ----------------------------------
 
 </h4>
+
+
+</br>
+
 
 
 ### 💻 Sobre o projeto
