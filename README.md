@@ -5,18 +5,18 @@
 </h1>
 <h4 align="center">
 
-Seu agregador de conteúdo tech.
+Seu agregador de conteúdo tech
 ----------------------------------
 
 </h4>
 
 
-#### 💻 Sobre o projeto
+### 💻 Sobre o projeto
 ------------
 Projeto desenvolvido ao longo da Imersão React promovida pela Alura. Essa versão do projeto serve como um agregador de conteúdos de tecnologia publicados no YouTube.
 ______
 
-#### 🛠🛠 Tecnologias utilizadas
+### 🛠🛠 Tecnologias utilizadas
 ------------
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -27,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 > Veja o arquivo  [package.json](https://github.com/fagnerzulin/techflix/blob/master/package.json)
 
 ______________
-#### 👩‍🏫👨‍🏫 Instrutores
+### 👩‍🏫👨‍🏫 Instrutores
 ------------
 A seguir os instrutores que promoveram essa Imersão (com link para as respectivas contas no twitter):
 
