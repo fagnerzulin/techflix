@@ -6,7 +6,8 @@
 <h4 align="center">
 
 Seu agregador de conteúdo tech.
-----------------------------------
+----------------------------------,
+
 </h4>
 
 
@@ -20,7 +21,7 @@ ______
 As seguintes ferramentas foram usadas na construção do projeto:
 
 -  **[React](https://reactjs.org/)**
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-  **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[Styled Components](https://github.com/styled-components/styled-components)**
 
 > Veja o arquivo  [package.json](https://github.com/fagnerzulin/techflix/blob/master/package.json)
@@ -29,11 +30,12 @@ ______________
 ##### 👩‍🏫👨‍🏫 Instrutores
 ------------
 A seguir os instrutores que promoveram essa Imersão (com link para as respectivas contas no twitter):
-- **[Mario Souto](https://twitter.com/omariosouto) - Instrutor da Alura, engenheiro Nubank **
 
-- **[Juliana Negreiros](https://twitter.com/juunegreiros) - Coordenadora dos cursos de front-end da Alura **
+- **[Mario Souto](https://twitter.com/omariosouto)** - Instrutor da Alura, engenheiro Nubank
 
-- **[Marco Bruno](https://twitter.com/marcobrunodev) - Engenheiro de software na Suécia **
+- **[Juliana Negreiros](https://twitter.com/juunegreiros)** - Coordenadora dos cursos de front-end da Alura
 
-- **[Paulo Silveira](https://twitter.com/paulo_caelum) - CEO da Alura **
+- **[Marco Bruno](https://twitter.com/marcobrunodev)** - Engenheiro de software na Suécia
+
+- **[Paulo Silveira](https://twitter.com/paulo_caelum)** - CEO da Alura
 _________________
