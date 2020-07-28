@@ -5,8 +5,8 @@
 </h1>
 <h4 align="center">
 
-Seu agregador de conteúdo tech
-----------------------------------
+                Seu agregador de conteúdo tech
+                ----------------------------------
 
 </h4>
 
