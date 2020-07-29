@@ -15,3 +15,10 @@ export const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
 `;
+
+export const LogoFooter = styled.img`
+  max-width: 168px;
+  @media (max-width: 800px) {
+    max-width: 105px;
+  }
+`;

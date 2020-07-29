@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterBase } from "./styles";
+import { FooterBase, LogoFooter } from "./styles";
 import Logo from "../../assets/img/techflix.png";
 import RedesSociais from "./components/RedesSociais";
 
@@ -7,11 +7,7 @@ function Footer() {
   return (
     <FooterBase>
       <a href="/">
-        <img
-          style={{ height: "60px", with: "80px" }}
-          src={Logo}
-          alt="Logo TechFlix"
-        />
+        <LogoFooter style={{}} src={Logo} alt="Logo TechFlix" />
       </a>
       <p>
         Orgulhosamente criado durante a{" "}
