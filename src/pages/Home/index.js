@@ -1,39 +1,42 @@
-import React from "react";
-import styled from "styled-components";
-import Menu from "../../components/Menu";
+import React, { useEffect, useState } from "react";
 import BannerMain from "../../components/BannerMain";
-import dados from "../../data/dados_iniciais.json";
 import Carosel from "../../components/Carousel";
-import Footer from "../../components/Footer";
-
-const AppWarapper = styled.div`
-  background-color: var(--grayDark);
-  padding-top: 94px;
-
-  @media (max-width: 800px) {
-    padding-top: 40px;
-  }
-`;
+import categoriasRepository from "../../repositories/categorias";
+import PageDefault from "../../components/PageDefault";
 
 function Home() {
+  const [dados, setDados] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository
+      .getAllWithVideos()
+      .then((categoriaComVideos) => {
+        setDados(categoriaComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <AppWarapper>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {dados.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dados[0].videos[0].titulo}
+                url={dados[0].videos[0].url}
+                videoDescription={dados[0].videos[0].videoDescription}
+              />
 
-      <BannerMain
-        videoTitle={dados.categorias[0].videos[0].titulo}
-        url={dados.categorias[0].videos[0].url}
-        videoDescription={dados.categorias[0].videos[0].videoDescription}
-      />
-
-      <Carosel category={dados.categorias[0]} />
-      <Carosel category={dados.categorias[1]} />
-      <Carosel category={dados.categorias[2]} />
-      <Carosel category={dados.categorias[3]} />
-      <Carosel category={dados.categorias[6]} />
-
-      <Footer />
-    </AppWarapper>
+              <Carosel ignoreFirstVideo category={dados[0]} />
+            </div>
+          );
+        }
+        return <Carosel key={categoria.id} category={categoria} />;
+      })}
+    </PageDefault>
   );
 }
 

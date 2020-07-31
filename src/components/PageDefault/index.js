@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../Footer";
 import Menu from "../Menu";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Main = styled.main`
   background-color: var(--black);
@@ -14,14 +14,18 @@ const Main = styled.main`
   @media (max-width: 800px) {
     margin-top: 0px;
   }
+  ${({ paddingAll }) =>
+    css`
+      padding: ${paddingAll};
+    `}
 `;
 
-function PageDefault({ children }) {
+function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
 
-      <Main>{children}</Main>
+      <Main paddingAll={paddingAll}>{children}</Main>
 
       <Footer />
     </>
