@@ -26,7 +26,7 @@ FormField.defaultProps = {
 };
 
 FormField.propTypes = {
-  Tag: PropTypes.string.isRequired,
+  Tag: PropTypes.string,
   label: PropTypes.string.isRequired,
   type: PropTypes.string,
   name: PropTypes.string.isRequired,
